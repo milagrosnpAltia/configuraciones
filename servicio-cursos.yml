@@ -15,7 +15,17 @@ eureka:
       defaultZone: http://localhost:8761/eureka
   instance:
     instance-id: instancia3
+#  Para la instancia 1
+#  instance:
+#    instance-id: instancia1
+#  Para la instancia 1
+#  instance:
+#    instance-id: instancia2
 server:
   port: 8030
+#  Para la instancia 1
+#  port: 8001
+#  Para la instancia 2
+#  port: 8002
   servlet:
     context-path: /cursos
