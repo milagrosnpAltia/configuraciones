@@ -13,20 +13,21 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-  instance:
-    instance-id: instancia3
-    hostName: 192.168.1.55
+  #instance:
+ #   instance-id: instancia3
+#    hostName: 192.168.1.55
     
 #  Para la instancia 1
-#  instance:
-#    instance-id: instancia1
+  instance:
+    instance-id: instancia1
+    hostName: 192.168.1.55
 #  Para la instancia 1
 #  instance:
 #    instance-id: instancia2
 server:
-  port: 8030
+ # port: 8030
 #  Para la instancia 1
-#  port: 8001
+  port: 8001
 #  Para la instancia 2
 #  port: 8002
   servlet:
